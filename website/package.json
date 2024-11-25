@@ -1,0 +1,40 @@
+{
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "deploy": "docusaurus deploy",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear",
+    "start": "docusaurus start",
+    "swizzle": "docusaurus swizzle",
+    "build": "docusaurus build",
+    "publish-gh-pages": "docusaurus deploy"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.0.0",
+    "@docusaurus/preset-classic": "^3.0.0",
+    "@docusaurus/plugin-google-gtag": "^3.0.0",
+    "axios": "^1.7.2",
+    "classnames": "^2.2.6",
+    "clsx": "^2.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-react": "^7.23.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-player": "^2.16.0",
+    "react-slick": "^0.30.2",
+    "react-social-media-embed": "^2.5.13",
+    "slick-carousel": "^1.8.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
